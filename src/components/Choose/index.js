@@ -2,7 +2,7 @@ function Choose() {
   return (
     <section className="choose">
       <div className="container">
-        <h2>Why choose Admirals?</h2>
+        <h2 className="section__title text-center">Why choose Admirals?</h2>
         <div className="row">
           <div className="col-3">
             <div className="choose__item">

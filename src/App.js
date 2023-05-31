@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar';
 import './App.css';
+import Menu from './components/Menu';
 import Banner from './components/Banner';
 import Invest from './components/Invest';
 import Trade from './components/Trade';
@@ -13,16 +13,16 @@ import InTouch from './components/InTouch';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div className="content">
+      <Menu />
+      <div className="content" style={{paddingTop: '100px'}}>
         <Banner />
         <Invest />
         <Trade />
         <Guide />
-        <TradingTabs />
-        <Condition />
+        {/* <TradingTabs /> */}
+        {/* <Condition />
         <Choose />
-        <TryDemo />
+        <TryDemo /> */}
         <InTouch />
       </div>
     </div>

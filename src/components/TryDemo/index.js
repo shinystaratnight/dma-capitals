@@ -4,7 +4,7 @@ function TryDemo() {
       <div className="container">
         <div className="try-domo__wrapper d-flex">
           <div className="try-demo__info w-50">
-            <h2>Try demo trading</h2>
+            <h2 className="section__title">Try demo trading</h2>
             <p>Not sure how to start? We`ve got you! Start practicing trading with virtual funds on the Admirals demo trading account.</p>
             <button>Try free on demo</button>
           </div>

@@ -4,7 +4,7 @@ function Condition() {
       <div className="container">
         <div className="condition__wrapper d-flex">
           <div className="condition__contents w-50">
-            <h2>Top trading conditions</h2>
+            <h2 className="section__title">Top trading conditions</h2>
             <p>
               Trade our best conditions yet, including some of the market`s most competitive spreads!
             </p>

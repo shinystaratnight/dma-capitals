@@ -1,11 +1,221 @@
 :root {
-  --adm-background-default: #f8f8fb;
+  --dma-background-default: #f8f8fb;
+  --dma-text-primary: #293050;
+  --bs-btn-padding-x: 0.75rem;
+  --bs-btn-padding-y: 0.375rem;
 }
 
-.navbar-container {
+@font-face {
+  font-family: "Inter";
+  src: url(/public/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter Black";
+  src: url(/public/fonts/Inter-Black.ttf);
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  src: url(/public/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Inter SemiBold";
+  src: url(/public/fonts/Inter-SemiBold.ttf);
+}
+
+body, html {
+  font-family: "Inter", sans-serif;
+}
+
+.main-menu__wrapper {
   box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,.1);
 }
 
+.menu__header {
+  background-color: #f5f5f5;
+}
+
+.menu__header-item {
+  color: rgba(0,0,0,.6);
+  line-height: 1.5;
+  text-decoration: none;
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  border-right: 1px solid #ccc;
+}
+
+.menu__panel {
+  background-color: #fff;
+}
+
+.menu__panel-item {
+  padding: .5rem .75rem;
+  cursor: pointer;
+}
+
+.menu__panel-item__text {
+  color: #333;
+  text-decoration: none;
+}
+
+.menu__panel-dropdown {
+  position: absolute;
+  display: none;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.3);
+}
+
 .banner {
-  background-color: var(--adm-background-default);
+  background-color: var(--dma-background-default);
+}
+
+.banner__wrapper {
+  color: var(--dma-text-primary)
+}
+
+.banner__title {
+  font-family: "Inter Bold";
+  font-size: 3rem;
+  line-height: 1.25;
+}
+
+.invest__image {
+  padding: 3rem 6rem;
+}
+
+.invest__info {
+  padding: 4rem;
+}
+
+.section__title {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section__text {
+  color: rgba(0,0,0,.6);
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.invest__info-subtitle {
+  font-family: "Inter SemiBold";
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.invest__info-desc {
+  color: rgba(0,0,0,.6);
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.invest__terms-apply a {
+  color: #237dea;
+  text-decoration: none;
+}
+
+.trade__item {
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.08), 0 2px 6px -1px rgba(0,0,0,.08);
+  border-radius: 8px;
+  margin: .75rem 1rem;
+  padding: .5rem 1rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.trade__item-image {
+  margin: 0 1rem;
+}
+
+.trade__item-info {
+  margin: 0 .5rem;
+}
+
+.trade__item-info strong {
+  margin-bottom: .5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.trade__item-info p {
+  margin-bottom: 0;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: rgba(0,0,0,.6);
+}
+
+.guide__item {
+  padding: 0 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guide__item-number {
+  width: 114px;
+  height: 114px;
+  margin-bottom: 32px;
+  border-radius: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
+  font-size: 5rem;
+  letter-spacing: -.67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide__item-number.blue {
+  border: 1px solid #0059fc;
+  color: #0059fc;
+}
+
+.guide__item-number.dark-green {
+  border: 1px solid #008f94;
+  color: #008f94;
+}
+
+.guide__item-number.green {
+  border: 1px solid #00b65d;
+  color: #00b65d;
+}
+
+.guide__item-title {
+  font-family: "Inter SemiBold";
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.guide__item-content {
+  color: rgba(0,0,0,.6);
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.in-touch {
+  padding: 64px 0 84px;
+  margin-top: 154px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
+  margin-bottom: 30px;
+}
+
+.in-touch__image img {
+  transform: translateX(-50%);
+  top: -200px;
+  left: calc(50% + 25px);
+  height: 382px;
+  width: 521px;
 }
