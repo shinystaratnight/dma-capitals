@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="42px" viewBox="0 0 38 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>5A92985C-31AF-4028-9ACA-EB51365BCF92</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M4,20.7425 L4,28.7425 C4,30.4025 5.34,31.7425 7,31.7425 C8.66,31.7425 10,30.4025 10,28.7425 L10,20.7425 C10,19.0825 8.66,17.7425 7,17.7425 C5.34,17.7425 4,19.0825 4,20.7425 Z M16,20.7425 L16,28.7425 C16,30.4025 17.34,31.7425 19,31.7425 C20.66,31.7425 22,30.4025 22,28.7425 L22,20.7425 C22,19.0825 20.66,17.7425 19,17.7425 C17.34,17.7425 16,19.0825 16,20.7425 Z M3,41.7425 L35,41.7425 C36.66,41.7425 38,40.4025 38,38.7425 C38,37.0825 36.66,35.7425 35,35.7425 L3,35.7425 C1.34,35.7425 0,37.0825 0,38.7425 C0,40.4025 1.34,41.7425 3,41.7425 Z M28,20.7425 L28,28.7425 C28,30.4025 29.34,31.7425 31,31.7425 C32.66,31.7425 34,30.4025 34,28.7425 L34,20.7425 C34,19.0825 32.66,17.7425 31,17.7425 C29.34,17.7425 28,19.0825 28,20.7425 Z M17.14,0.7225 L1.34,9.0425 C0.52,9.4625 0,10.3225 0,11.2425 C0,12.6225 1.12,13.7425 2.5,13.7425 L35.52,13.7425 C36.88,13.7425 38,12.6225 38,11.2425 C38,10.3225 37.48,9.4625 36.66,9.0425 L20.86,0.7225 C19.7,0.1025 18.3,0.1025 17.14,0.7225 Z" id="path-1"></path>
+    </defs>
+    <g id="PPC-LP-2020---Stocks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stocks-LP-Desktop" transform="translate(-291.000000, -3025.000000)">
+            <g id="BENEFITS" transform="translate(0.000000, 2836.000000)">
+                <g id="G4" transform="translate(140.000000, 162.000000)">
+                    <g id="icon/maps/add_location_24px" transform="translate(151.000000, 27.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="icon/action/account_balance_24px" fill-rule="nonzero"></g>
+                        <rect id="Color-/-Surface-/-Light" fill="#105EF6" mask="url(#mask-2)" x="-5" y="-3" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,22 +1,29 @@
+import Navbar from './components/Navbar';
 import './App.css';
+import Banner from './components/Banner';
+import Invest from './components/Invest';
+import Trade from './components/Trade';
+import Guide from './components/Guide';
+import TradingTabs from './components/TradingTabs';
+import Condition from './components/Condition';
+import Choose from './components/Choose';
+import TryDemo from './components/TryDemo';
+import InTouch from './components/InTouch';
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <div className="content">
+        <Banner />
+        <Invest />
+        <Trade />
+        <Guide />
+        <TradingTabs />
+        <Condition />
+        <Choose />
+        <TryDemo />
+        <InTouch />
       </div>
     </div>
   );
