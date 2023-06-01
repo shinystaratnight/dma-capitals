@@ -29,6 +29,38 @@ body, html {
   font-family: "Inter", sans-serif;
 }
 
+section {
+  padding: 60px 0;
+}
+
+.section__title {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section__text {
+  color: rgba(0,0,0,.6);
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.section__subtitle {
+  font-family: "Inter SemiBold";
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.tab__title {
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+
 .main-menu__wrapper {
   z-index: 999;
   box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,.1);
@@ -88,31 +120,6 @@ body, html {
 
 .invest__info {
   padding: 4rem;
-}
-
-section {
-  padding: 60px 0;
-}
-
-.section__title {
-  font-size: 3rem;
-  line-height: 3.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.section__text {
-  color: rgba(0,0,0,.6);
-  font-size: 1rem;
-  line-height: 1.75rem;
-  margin-bottom: 1.5rem;
-  margin-top: 0;
-}
-
-.section__subtitle {
-  font-family: "Inter SemiBold";
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin-bottom: 2rem;
 }
 
 .invest__terms-apply a {
@@ -202,8 +209,6 @@ section {
   height: 12px;
 }
 
-
-
 .condition__table__footer {
   padding: 20px 25px;
 }
@@ -215,6 +220,65 @@ section {
   line-height: 16px;
   font-weight: 400!important;
   text-align: left;
+}
+
+.trading-tabs {
+  position: relative;
+  background-image: radial-gradient(circle,rgba(7,39,53,.99) 0,#031118 100%);
+  padding-top: 40px;
+  padding-bottom: 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.trading-tabs__header {
+  position: relative;
+  z-index: 1;
+}
+
+.trading-tabs__title {
+  position: absolute;
+  left: .5rem;
+  padding: .25rem .5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-left: 4px solid #1e86ff;
+}
+
+.trading-tabs__tabs {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.trading-tabs__tab {
+  font-size: 1rem;
+  line-height: normal;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  font-family: "Inter SemiBold";
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.trading-tabs__tab.active {
+  border-bottom: 2px solid #1e86ff;
+}
+
+.trading-tabs__tab:hover {
+  background-color: rgba(139,142,167,.07);
+}
+
+.trading-tab__platform {
+  border: 1px solid #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin: 0 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .trade__item {

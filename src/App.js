@@ -19,7 +19,7 @@ function App() {
         <Invest />
         <Trade />
         <Guide />
-        {/* <TradingTabs /> */}
+        <TradingTabs />
         <Condition />
         <Choose />
         <TryDemo />
