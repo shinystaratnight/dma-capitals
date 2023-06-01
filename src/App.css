@@ -30,6 +30,7 @@ body, html {
 }
 
 .main-menu__wrapper {
+  z-index: 999;
   box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,.1);
 }
 
@@ -89,6 +90,10 @@ body, html {
   padding: 4rem;
 }
 
+section {
+  padding: 60px 0;
+}
+
 .section__title {
   font-size: 3rem;
   line-height: 3.5rem;
@@ -103,18 +108,11 @@ body, html {
   margin-top: 0;
 }
 
-.invest__info-subtitle {
+.section__subtitle {
   font-family: "Inter SemiBold";
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.invest__info-desc {
-  color: rgba(0,0,0,.6);
-  font-size: 1rem;
-  line-height: 1.75rem;
-  margin-bottom: 1.5rem;
-  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 .invest__terms-apply a {
@@ -193,16 +191,92 @@ body, html {
   font-family: "Inter SemiBold";
   font-size: 1.5rem;
   line-height: 2rem;
-  margin-bottom: 16px;
-  font-weight: 500;
+  margin-bottom: 2rem;
 }
 
-.guide__item-content {
+.choose__item {
+  padding: 44px 24px 24px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.08), 0 2px 6px -1px rgba(0,0,0,.08);
+  border-radius: 8px;
+  margin: 0 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.choose_item-image {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.try-demo {
+  margin: 44px 0 80px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
+  overflow: hidden;
+  position: relative;
+}
+
+.try-demo__wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.try-demo__bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.try-demo__cards-item {
+  width: 124px;
+  height: 124px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.04), 0 4px 5px 0 rgba(0,0,0,.04), 0 1px 10px 0 rgba(0,0,0,.05);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px 8px;
+}
+
+.try-demo__cards-item.centered {
+  width: 156px;
+  height: 156px;
+  margin-right: -10px;
+  margin-left: -10px;
+  z-index: 1;
+}
+
+.try-demo__cards-item p {
   color: rgba(0,0,0,.6);
+  text-align: center;
+  font-size: .875rem;
+  line-height: 1.5rem;
+  letter-spacing: .1px;
+  margin-bottom: 0;
+}
+
+.try-demo__cards-item.centered p {
   font-size: 1rem;
-  line-height: 1.75rem;
-  margin-bottom: 1.5rem;
-  margin-top: 0;
+}
+
+.try-demo__cards-item-image {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .in-touch {

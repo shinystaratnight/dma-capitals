@@ -11,8 +11,8 @@ function Guide() {
               <div className="guide__item">
                 <div className="guide__item-number blue">1</div>
                 <div className="guide__item-description">
-                  <div className="guide__item-title">Register</div>
-                  <div className="guide__item-content">Sign up with your name and email address to start trading</div>
+                  <div className="section__subtitle">Register</div>
+                  <div className="section__text guide__item-content">Sign up with your name and email address to start trading</div>
                 </div>
               </div>
             </div>
@@ -20,8 +20,8 @@ function Guide() {
               <div className="guide__item">
                 <div className="guide__item-number dark-green">2</div>
                 <div className="guide__item-description">
-                  <div className="guide__item-title">Fund</div>
-                  <div className="guide__item-content">Start investing from €1, and start trading from €100</div>
+                  <div className="section__subtitle">Fund</div>
+                  <div className="section__text guide__item-content">Start investing from €1, and start trading from €100</div>
                 </div>
               </div>
             </div>
@@ -29,8 +29,8 @@ function Guide() {
               <div className="guide__item">
                 <div className="guide__item-number green">3</div>
                 <div className="guide__item-description">
-                  <div className="guide__item-title">Trade</div>
-                  <div className="guide__item-content">Log in and start trading more than 8,000 instruments!</div>
+                  <div className="section__subtitle">Trade</div>
+                  <div className="section__text guide__item-content">Log in and start trading more than 8,000 instruments!</div>
                 </div>
               </div>
             </div>

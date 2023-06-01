@@ -20,9 +20,9 @@ function App() {
         <Trade />
         <Guide />
         {/* <TradingTabs /> */}
-        {/* <Condition />
+        {/* <Condition /> */}
         <Choose />
-        <TryDemo /> */}
+        <TryDemo />
         <InTouch />
       </div>
     </div>

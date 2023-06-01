@@ -8,8 +8,8 @@ function Invest() {
           </div>
           <div className="invest__info col-md-6">
             <h2 className="section__title invest__info-title">Global Stock Markets commission-free</h2>
-            <h3 className="invest__info-subtitle">Invest from 1 Euro, Trade from 100 Euro</h3>
-            <p className="invest__info-desc">
+            <h3 className="section__subtitle invest__info-subtitle">Invest from 1 Euro, Trade from 100 Euro</h3>
+            <p className="section__text invest__info-desc">
               Hundreds of Stocks & Stock CFDs from various exchanges of the world commission-free! The offer is eligible for Trade.MT4, 
               Trade.MT5, Invest MT5 accounts*.
             </p>

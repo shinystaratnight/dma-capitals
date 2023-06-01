@@ -1,7 +1,7 @@
 function Menu() {
   return (
-    <div className="main-menu position-fixed w-100">
-      <div className="main-menu__wrapper">
+    <div className="main-menu">
+      <div className="main-menu__wrapper position-fixed w-100">
         <div className="menu__header">
           <div className="container">
             <div className="menu__header-wrapper d-flex justify-content-end align-items-center pt-2 pb-2">

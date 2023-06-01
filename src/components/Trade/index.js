@@ -50,10 +50,8 @@ function Trade() {
                 content="370+ ETF CFDs, plus hundreds of ETFs available through Invest.MT5"
               />
             </div>
-          </div>
 
-          <div className="row">
-            <div className="col-md-4 offset-md-4">
+            <div className="col-md-4 my-3">
               <TradeItem
                 imgSrc="/images/trade/icon-crypto.svg"
                 title="Cryptocurrencies"
