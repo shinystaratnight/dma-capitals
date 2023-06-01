@@ -120,6 +120,103 @@ section {
   text-decoration: none;
 }
 
+.conditions__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.conditions__list li {
+  position: relative;
+  color: rgba(0,0,0,.87);
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: start;
+  gap: .35rem;
+}
+
+.conditions__list li img {
+  margin-top: .2rem;
+}
+
+.conditions__list li p {
+  margin-bottom: 0;
+}
+
+.condition__quotes__table {
+  border-spacing: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 20px 40px 0 rgba(66,69,89,.1);
+}
+
+.quote-header {
+  flex-grow: 1;
+  flex-basis: 0;
+  color: #9094a1;
+  height: 38px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.quote-header:first-child {
+  text-align: left!important;
+  padding-left: 40px;
+}
+
+.quote-row:nth-child(odd) {
+  background-color: rgba(139,142,167,.07);
+}
+
+.quote-row .quote-cell {
+  flex-grow: 1;
+  flex-basis: 0;
+  height: 38px;
+  color: #333;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.quote-row .quote-cell:first-child {
+  text-align: left!important;
+  padding-left: 40px;
+}
+
+.quote-row .quote-cell:first-child a {
+  font-family: "Inter SemiBold";
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+.state-arrow {
+  margin-right: 8px;
+  width: 10px;
+  height: 12px;
+}
+
+
+
+.condition__table__footer {
+  padding: 20px 25px;
+}
+
+.quote__text {
+  opacity: .5;
+  color: #424559;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400!important;
+  text-align: left;
+}
+
 .trade__item {
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.08), 0 2px 6px -1px rgba(0,0,0,.08);
   border-radius: 8px;
@@ -232,6 +329,10 @@ section {
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+.try-demo__cards {
+  padding-left: 100px;
 }
 
 .try-demo__cards-item {
